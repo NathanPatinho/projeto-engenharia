@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500&family=DM+Serif+Display:ital@0;1&display=swap');
 
-/* ── RESET & VARIÁVEIS ── */
+
 *, *::before, *::after {
   box-sizing: border-box;
   margin: 0;
@@ -37,7 +37,7 @@ body {
   overflow-x: hidden;
 }
 
-/* ── NAV ── */
+
 nav {
   position: fixed;
   top: 0; left: 0; right: 0;
@@ -657,8 +657,6 @@ footer {
 }
 
 /* ── SCROLL REVEAL ── */
-/* Visível por padrão — o JS é quem oculta antes de animar.
-   Assim, se o JS falhar ou demorar, o conteúdo nunca fica invisível. */
 .reveal {
   opacity: 1;
   transform: none;
