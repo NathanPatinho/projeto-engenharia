@@ -1,11 +1,3 @@
-// ============================================
-// SGT-AC — Cubo Quântico
-// main.js — Scripts principais
-// ============================================
-
-// ── SCROLL REVEAL ──
-// Adiciona a classe que habilita a animação só depois que o JS confirma que rodou.
-// Assim, se o script falhar ao carregar, o conteúdo permanece visível (CSS padrão).
 const revealEls = document.querySelectorAll('.reveal');
 
 revealEls.forEach(el => el.classList.add('reveal-init'));
